@@ -1,0 +1,224 @@
+/* .background-image {
+    background-image: url(${'../img/background.jpg'});
+    background-size: cover;
+    background-position: center;
+  } */
+body {
+    background-image: url('../img/background1.jpg');
+}
+  
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('../img/background1.jpg');background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+  }
+
+ .otptable{
+    width: 50px;
+ }
+
+.loginForm {
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger; */
+    /* background-color: aliceblue; */
+    background-image: url('../img/background1.jpg');
+    background-size: 100%;
+    backdrop-filter: blur(25px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:center;
+    text-align: center;
+    margin: 0 auto;
+    height:100%
+}
+.loginForm::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('../img/background1.jpg');background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+}
+
+.searchbar {
+    width:50%;
+    display: flex;
+    justify-content: center;
+    
+    /* position: center; */
+}
+
+.maintitle{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0a6d3d;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#customertable {
+    width:80%
+
+}
+
+#itemtable {
+    width: 80%;
+}
+
+#paymenttable {
+    width: 50%;
+}
+
+.registerForm {
+    text-align: center;
+    margin: 0 auto;
+    background-image: url('../img/viewitems.jpg');
+    backdrop-filter: blur(25px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.registerForm::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-image: url('../img/viewitems.jpg');background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(5px);
+  }
+
+/* .itemsearch {
+    position: right;
+} */
+
+label {
+    display: block;
+}
+
+#Submit {
+
+    margin: 5px 5px 5px 5px;
+    width: 20%;
+}
+
+.buttonMargin {
+    margin: 5px 5px 5px 5px;
+    background-color: #119857;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: large;
+    color: aliceblue;
+    border-radius: 3px;
+    border: 0px;
+    width: 20%;
+    height: 40;
+    border-radius: 10;
+    border-color:black
+}
+.paymentbutton {
+    width: 60%;
+    border-radius: 5;
+    /* margin: 5px 5px 5px 5px;
+
+    background-color: #0f78ce;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: large;
+    color: aliceblue;
+    border-radius: 3px;
+    border: 0px;
+    width: 10%;
+    border-radius: 10;
+    border-color:black */
+}
+
+.buttonPurchase {
+    margin: 5px 5px 5px 5px;
+
+    background-color: #0f78ce;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: large;
+    color: aliceblue;
+    border-radius: 3px;
+    border: 0px;
+    width: 25%;
+    height: 40;
+    border-radius: 10;
+    border-color:black
+}
+
+.buttonMargin1 {
+    margin: 5px 5px 5px 5px;
+
+    background-color: #00e676;
+    border-radius: 3px;
+    border: 0px;
+    height:40%
+    /* width: 20%; */
+
+}
+
+.buttonMargin:hover{
+    margin: 5px 5px 5px 5px;
+    width: 20%;
+
+    background-color: #7df1b9d3;
+    border-radius: 3px;
+    border: 0px;
+
+}
+
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0a6d3d;
+    font-weight: bold;
+}
+
+form {
+    background-color: aliceblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    width: 40%;
+    margin: 0 auto;
+
+    box-shadow: 0px 0px 4px 0px;
+
+    padding: 3% 3% 3% 3%;
+    
+}
+
+table {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    border: solid 1px;
+    border-color: black;
+    width: 40%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+/* #login-page {
+    background-image: url('../img/background.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
